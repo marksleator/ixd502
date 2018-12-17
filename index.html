@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+  <title>RESTRICTED</title>
+  <meta name="description" content="RESTRICTED">
   <meta name="author" content="SitePoint">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
@@ -19,9 +19,9 @@
     <div id="side-menu">
     <!-- The overlay -->
 <div id="myNav" class="overlay">
-
+    <div id="side-menu-two"></div>
   <!-- Button to close the overlay navigation -->
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="javascript:void(0)" class="closebtn" id="no-strike" onclick="closeNav()">&times;</a>
   <!-- Overlay content -->
   <div class="overlay-content">
 	<a href="#intro" onclick="closeNav()">Introduction</a>
@@ -29,18 +29,21 @@
 	<a href="#china" onclick="closeNav()">China: The Great Firewall of China </a>
 	<a href="#korea" onclick="closeNav()">North Korea: The Hermit Kingdom</a>
     <a href="#conclusion" onclick="closeNav()">Conclusion</a>
+    <a href="#bibliography" onclick="closeNav()">Bibliography</a>
   </div>
 </div>
 
 <!-- Use any element to open/show the overlay navigation menu -->
 <div class="main-nav">
-<span onclick="openNav()" class="fade-in"><i class="fa fa-bars"></i></span>
+<span onclick="openNav()"><i class="fa fa-bars"></i></span>
 </div>
     </div>
-    <div class="hero"><img src="images/eyes_four.jpg"></div>
+    <div class="hero" ><img src="images/eyes_five.jpg"></div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/top-two.png"/></button>
     <div class="content">
         <div class="container">
         <h2 class="title">Is Censorship Possible in the Technological Age?</h2>
+            <div id="underline"></div>
     
         
         <h3 id="intro">Introduction</h3>
@@ -90,7 +93,7 @@
         
             <p>Many <span class="redacted">state opponents, or <i>nonpersons</i>, were sentenced to</span> harsh punishments. <span class="redacted">Such as murdered in <i>the Great Purges</i>, left to die in a Siberian <i>gulag</i> or <i>whitewashed</i></span> from history <span class="redacted">completely. All visual or historical reference to them</span> would be destroyed <span class="redacted">in an effort to falsify history. Author of <i>The Commissar Vanishes</i>, David King writes Stalin whitewashed his political rivals in order to portray himself as</span></p>
             
-            <blockquote><span class="redacted">"successor to Lenin, the leader of the Bolshevik Revolution and founder of the USSR."</span></blockquote>
+            <blockquote><span class="redacted">“successor to Lenin, the leader of the Bolshevik Revolution and founder of the USSR.”</span></blockquote>
         
             <p><span class="redacted">Similarly many citizens rushed to <i>“purge”</i> convicted family members from photographs as a way to avoid drawing suspicion or a similar fate. Much of the populace pursued this <i>“self-censorship”</i> attitude as a means of self-preservation.</span></p>
         
@@ -111,7 +114,7 @@
             <p><span class="redacted">In the documentary <i>Chuck Norris vs. Communism</i>, a subject described watching these bootlegged videos as</span>
             <b><span class="redacted">“a realization of how far behind the West and how culturally isolated their Eastern European nation had become.”</span></b>The man behind this <span class="redacted">bootlegging</span> operation, Teodor Zamfir, <span class="redacted">states in the same documentary,</span></p> 
         
-            <blockquote><span class="redacted">“During a dictatorship which</span> had controlled everything, <span class="redacted">they lost control of something that seemed insignificant, the videotape. The videotapes set the whole communist system off balance."</span></blockquote>
+            <blockquote><span class="redacted">“During a dictatorship which</span> had controlled everything, <span class="redacted">they lost control of something that seemed insignificant, the videotape. The videotapes set the whole communist system off balance.”</span></blockquote>
         
             <p>Other outside influences such as <i>Radio Free Europe</i> <span class="redacted">also penetrated the Iron Curtain and</span> worked to <span class="redacted">undermine and challenge the Soviet narrative.  This lead to the government trying to</span> jam radio signals. Lithuanian radio journalist, Rimantas Pleikis, stated in a Russia Beyond article</p>
         
@@ -145,9 +148,9 @@
         
             <p>China possesses the largest <span class="redacted">censorship and surveillance</span> program in the world. With an estimated 2 million <span class="redacted">online censors</span> being employed in China, according to a study in 2013 by the BBC. The People’s Republic of China also has the <span class="redacted">dubious</span> honour of having</p>
             
-            <blockquote>"the largest recorded number of <span class="redacted">imprisoned</span> journalists <span class="redacted">and cyber-dissidents</span> in the world,"</blockquote>
+            <blockquote>“the largest recorded number of <span class="redacted">imprisoned</span> journalists <span class="redacted">and cyber-dissidents</span> in the world,”</blockquote>
             
-            <p>according to the <i>Ashgate Research Companion to Chinese Foreign Policy."</i></p>
+            <p>according to the <i>Ashgate Research Companion to Chinese Foreign Policy.</i></p>
  
             <p><span class="redacted">According to Senior Fellow of Asian Studies, Gudrun Wacker, The PRC will</span> censor any information that,
         
@@ -155,7 +158,7 @@
         
             <p><span class="redacted">While</span> this statute <span class="redacted">seems reasonable the language used is deliberately undefined allowing a wider form of censorship and persecution where needed. The ability for the government to manipulate such laws </span>enforces a stricter personal and corporate <span class="redacted">self-censorship</span> attitude. <span class="redacted">The responsibility of enforcing these laws on the behalf of the government sometimes falls on international or private companies and so they are overzealous in their censorship enforcement</span> in order to avoid financial punishments or criminal proceedings.</p>
             
-            <div id="cf">
+            <div id="cf-two">
                       <img class="bottom" src="images/mao%20(altered).jpg"/>
                       <img class="top" src="images/mao%20(unaltered).jpg"/>
                     </div>
@@ -168,7 +171,7 @@
         
             <p><span class="redacted">This methodology is further used when censoring internal subversive materials.</span> Often websites that post scathing reviews about the government are not likely to be censored. <span class="redacted">However websites focusing on Tibetan Independence, political reforms or Party corruption certainly will.</span> This is reinforced by a Harvard study by King who postulates, China’s <span class="redacted">censorship</span> program</p>
         
-            <blockquote>“is not to suppress criticism of the state” <span class="redacted">but to “reduce the probability of collective action by clipping social ties whenever any collective movements are in evidence."</span></blockquote>
+            <blockquote>“is not to suppress criticism of the state” <span class="redacted">but to “reduce the probability of collective action by clipping social ties whenever any collective movements are in evidence.”</span></blockquote>
         
             <p>On rare occasions <span class="redacted">when</span> a journalist or cyber dissident posts a story that <span class="redacted">the Party deem unacceptable there is often a high level public trial. This</span> has a chilling effect on public discourse and acts as a deterrent for <i>netizens</i> activities. This methodology is sometimes dubbed <i>Kill the chicken to scare the monkeys</i> in China. <span class="redacted">It is through this strategy of constant surveillance, optional self-censorship and rare but harsh punishments that makes porous censorship so effective.</span></p>
         
@@ -197,7 +200,7 @@
         
             <p>Many <i>netizens</i> have found creative ways of bypassing <span class="redacted"><i>the Great Firewall</i> through the use of linguistic methods and satire. This allows the user to discuss</span> off limit topics <span class="redacted">without fear of censorship or punishment.</span></p> 
         
-            <p><span class="redacted">Perhaps the most famous example is referring to internet censors as <i>“river crabs”</i> (河蟹). River crab is a close homophone of <i>“harmony”</i> (和諧), which in this case is a joke referring, to former president Hu Jintao’s concept of a <i>“Harmonious Society”</i>.  This term, <i>"Harmonious Society"</i>, has emerged as a byword for suppression, censorship or <i>"stability at all costs"</i>. Thus when a <i>netizens</i> website has been censored, they</span> <span class="redacted"> can say their work has been <i>"harmonized"</i> (被和谐了). Over time <i>"harmonized"</i> changed into <i>“river-crabbed”</i> as government censors were learning of its euphemistic usage. We see once again evidence of a censorship arms-race, with each side trying to outpace the other.</span></p>
+            <p><span class="redacted">Perhaps the most famous example is referring to internet censors as <i>“river crabs”</i> (河蟹). River crab is a close homophone of <i>“harmony”</i> (和諧), which in this case is a joke referring, to former president Hu Jintao’s concept of a <i>“Harmonious Society”</i>.  This term, <i>“Harmonious Society”</i>, has emerged as a byword for suppression, censorship or <i>“stability at all costs”</i>. Thus when a <i>netizens</i> website has been censored, they</span> <span class="redacted"> can say their work has been <i>“harmonized”</i> (被和谐了). Over time <i>“harmonized”</i> changed into <i>“river-crabbed”</i> as government censors were learning of its euphemistic usage. We see once again evidence of a censorship arms-race, with each side trying to outpace the other.</span></p>
         
         <p>Author of <i>The Chinese Language as a Weapon</i>, Jeanette Si writes</p>
             
@@ -225,22 +228,24 @@
         
             <p><span class="redacted">Despite the North Korean constitution</span> guaranteeing freedom of speech <i>(Article 67)</i> <span class="redacted">any reporting that</span> is <span class="redacted">not</span> sanctioned by the government <span class="redacted">is illegal and punishable.</span> Reporters are re-educated <span class="redacted">in Party doctrine</span> weekly <span class="redacted">and are closer to political activists.</span> Vincent Brossel <span class="redacted">from Reporters without Borders</span> states in his fact-finding report,
         
-        <b>“There are four categories of reporting. The priority is publicising the greatness of Kim Il-sung and his son Kim Jong-il. Second place goes to demonstrating the superiority of North Korean socialism. Third is denouncing imperialist and bourgeois corruption."</b></p>
+        <b>“There are four categories of reporting. The priority is publicising the greatness of Kim Il-sung and his son Kim Jong-il. Second place goes to demonstrating the superiority of North Korean socialism. Third is denouncing imperialist and bourgeois corruption.”</b></p>
         
             <p>Any form of State criticism is considered <span class="redacted">treason however even</span> minor <span class="redacted">infractions carry a heavy sentence. Vincent Brossel interviewed an anonymous North Korean escapee who stated,</span></p>
             <blockquote><span class="redacted">“I was punished for six months,</span> <span class="redacted">forced to work on a pig farm, for forgetting to write the last syllable of Kim Jong-il.”</span></blockquote>
         
             <p><span class="redacted">Self-censorship extends down to the North Korean populace, more as form of self-preservation. In 2016, according to <i>Radio Free Asia</i>,</span> <b><span class="redacted">“Kim Jong-un banned sarcasm because he fears people only agree with him ironically.”</span></b>      
             <span class="redacted">Such phrases as</span> <b>“this is all America’s fault”</b> <span class="redacted">and reference to him being</span> <b><span class="redacted">“a fool who cannot see the outside world”</span></b> <span class="redacted">carry the ominous threat that the offender will</span> <b><span class="redacted">“not be forgiven.”</span></b></p>
-        
-            <p>Public criticism of the State is dangerous <span class="redacted">due to the vast network of undercover informants within the country. There primary role is to monitor and</span> report on any individuals that don’t comply with Party protocol or possess any foreign material. <span class="redacted">Nicholas Eberstadt, a North Korea expert at the American Enterprise Institute says,</span></p> 
             
             <div id="cf">
                       <img class="bottom" src="images/north-korea%20(altered).jpg"/>
                       <img class="top" src="images/north-korea%20(unaltered).jpg"/>
                     </div>
         
-            <blockquote><span class="redacted">"It's as close to a Big Brother society</span> as a society <span class="redacted">populated by human beings can possibly be. There are multiple competing secret police who spy on the</span> people <span class="redacted">and on each other. So, no one</span> can relax and have a private life."</blockquote>
+            <p>Public criticism of the State is dangerous <span class="redacted">due to the vast network of undercover informants within the country. There primary role is to monitor and</span> report on any individuals that don’t comply with Party protocol or possess any foreign material. <span class="redacted">Nicholas Eberstadt, a North Korea expert at the American Enterprise Institute says,</span></p> 
+            
+            
+        
+            <blockquote><span class="redacted">“It's as close to a Big Brother society</span> as a society <span class="redacted">populated by human beings can possibly be. There are multiple competing secret police who spy on the</span> people <span class="redacted">and on each other. So, no one</span> can relax and have a private life.”</blockquote>
         
             <p><span class="redacted">This mass surveillance has been furthered by the installation of microphones into outdoor areas and extensive wiretapping of phones.</span> So North Korean citizens are <span class="redacted">not</span> truly free in the real world, well what about the bastion of freedom that is the internet?</p>
         
@@ -264,7 +269,7 @@
         
         <p>In the same report an anonymous North Korean female said
         
-        <b>“almost all citizens listen or watch. You can tell when you talk to them…they will use [South] Korean words… you think, “that person watches too.””</b></p>
+        <b>“almost all citizens listen or watch. You can tell when you talk to them…they will use [South] Korean words… you think, that person watches too.”</b></p>
         
             <p>The cultural impact of foreign media is starting to manifest in different ways. Higher party officials are buying more imported western goods, <span class="redacted">western clothes and styling their hair in ways not preordained by the government.</span></p>
             
@@ -302,7 +307,83 @@
             <p><span class="redacted">It is a constant arms race between two forces.  I would argue that technology is merely the tool,</span> the true battle between censorship and freedom is between the will of the people versus the <span class="redacted">governments will to control.</span></p>
         
             <blockquote><span class="redacted">Yes censorship is possible in the technological age, for a time, but it waxes and wanes with the constant power struggle between</span> citizen <span class="redacted">and censor.</span></blockquote>
-    </div>
+            
+            </div>
+        
+        </div>
+            
+            <div id="footer">
+            
+            <h3 id="bibliography">Bibliography</h3>
+            
+                <p><span>Heine, H. (1823).&nbsp;<em>Almansor: A Tragedy</em>. p.245.</span></p>
+            
+                <p><span>Brager, B. (2009).&nbsp;<em>The Iron Curtain</em>. Philadelphia, PA: Chelsea, p.141.</span></p>
+            
+                <p><span>Markwick, R. (2013).&nbsp;<em>Censorship and Fear: Historical Research in the Soviet Union</em>. [online] Rjh.ub.rug.nl. Available at: </span><a href="https://rjh.ub.rug.nl/groniek/article/view/22633"><span>https://rjh.ub.rug.nl/groniek/article/view/22633</span></a><span> [Accessed 22 Oct. 2018].</span></p>
+            
+                <p><span>Open Culture. (2017).&nbsp;<em>Long Before Photoshop, the Soviets Mastered the Art of Erasing People from Photographs &mdash; and History Too</em>. [online] Available at: <a href="http://www.openculture.com/2017/08/long-before-photoshop-the-soviets-mastered-the-art-of-erasing-people-from-photographs-and-history-too.html">http://www.openculture.com/2017/08/long-before-photoshop-the-soviets-mastered-the-art-of-erasing-people-from-photographs-and-history-too.html</a> [Accessed 11 Dec. 2018].</span></p>
+            
+                <p><span>Bukovskij, V. and Scammell, M. (1979).&nbsp;<em>To Build a Castle: My Life as a Dissenter</em>. New York: The viking Press, p.141.</span></p>
+            
+                <p><span>Ramm, B. (2017). The writers who defied Soviet censors. [online] Bbc.com. Available at: <a href="http://www.bbc.com/culture/story/20170724-the-writers-who-defied-soviet-censors">http://www.bbc.com/culture/story/20170724-the-writers-who-defied-soviet-censors</a> [Accessed 11 Dec. 2018].</span></p>
+            
+                <p><span>Kirwan, P., Kirwan, P., Lapowsky, I., Tiku, N., Lapowsky, I., Finley, K., Fisher, A. and Simonite, T. (2010).&nbsp;<em>From Samizdat to Twitter: How Technology Is Making Censorship Irrelevant</em>. [online] WIRED. Available at: <a href="https://www.wired.com/2010/08/from-samizdat-to-twitter-how-technology-is-making-censorship-irrelevant/">https://www.wired.com/2010/08/from-samizdat-to-twitter-how-technology-is-making-censorship-irrelevant/</a> [Accessed 11 Dec. 2018].</span></p>
+            
+                <p><em><span>Chuck Norris vs. Communism</span></em><span>. (2015). [film] Directed by I. Calugareanu. Romania/United Kingdom: Independent Lens.</span></p>
+            
+                <p><span>Yegorov, O. (2017).&nbsp;<em>Soviet censorship: How did the USSR control the public?</em>. [online] Rbth.com. Available at: <a href="https://www.rbth.com/arts/history/2017/06/27/soviet-censorship-how-did-the-ussr-control-the-public_790892">https://www.rbth.com/arts/history/2017/06/27/soviet-censorship-how-did-the-ussr-control-the-public_790892</a> [Accessed 11 Dec. 2018].</span></p>
+            
+                <p>Mikkonen, S. (2010). Stealing the Monopoly of Knowledge?: Soviet Reactions to U.S. Cold War Broadcasting. Kritika: Explorations in Russian and Eurasian History, 11 (4), 771-805. doi:10.1353/kri.2010.0012 Retrieved from <a href="http://muse.jhu.edu/journals/kritika/">http://muse.jhu.edu/journals/kritika/</a></p>
+            
+                <p><span>Farris, J. (2013).&nbsp;<em>The Red Pencil: Censorship in Russia and the Soviet Union | The University of Chicago Library News</em>. [online] News.lib.uchicago.edu. Available at: <a href="http://news.lib.uchicago.edu/blog/2013/05/09/the-red-pencil-censorship-in-russia-the-soviet-union/">http://news.lib.uchicago.edu/blog/2013/05/09/the-red-pencil-censorship-in-russia-the-soviet-union/</a> [Accessed 11 Dec. 2018].</span></p>
+            
+                <p><span>BBC News. (2013).&nbsp;<em>'Two million' monitor web in China</em>. [online] Available at: <a href="https://www.bbc.co.uk/news/world-asia-china-24396957">https://www.bbc.co.uk/news/world-asia-china-24396957</a> [Accessed 11 Dec. 2018].</span></p>
+            
+                <p><span>Kavalski, E. (2016).&nbsp;<em>The Ashgate Research Companion to Chinese Foreign Policy</em>. London: Taylor and Francis, p.396.</span></p>
+            
+                <p><span>Wacker, G. (2018).&nbsp;<em>Resistance is Futile: Control and Censorship of the Internet in China</em>. [ebook] Berlin: SWP Berlin, p.83. Available at: <a href="https://www.swp-berlin.org/fileadmin/contents/products/fachpublikationen/ChinaInternetCensorship_2002.pdf">https://www.swp-berlin.org/fileadmin/contents/products/fachpublikationen/ChinaInternetCensorship_2002.pdf</a> &nbsp;[Accessed 13 Dec. 2018].</span></p>
+            
+                <p><span>Fell, A. (2018).&nbsp;<em>China's Eye on the Internet</em>. [online] UC Davis. Available at: <a href="https://www.ucdavis.edu/news/chinas-eye-internet/">https://www.ucdavis.edu/news/chinas-eye-internet/</a>&nbsp; [Accessed 13 Dec. 2018].</span></p>
+            
+                <p><span>Oxford Dictionaries | English. (2018).&nbsp;<em>panopticon | Definition of panopticon in English by Oxford Dictionaries</em>. [online] Available at: <a href="https://en.oxforddictionaries.com/definition/panopticon">https://en.oxforddictionaries.com/definition/panopticon</a> [Accessed 13 Dec. 2018].</span></p>
+            
+                <p><em><span>China on China, Culture for Billions</span></em><span>. (2013). [film] Directed by S. Contreras. Paris: Java Films SARL.</span></p>
+            
+                <p><span>Si, J. (2017).&nbsp;<em>The Chinese Language as a Weapon: How China&rsquo;s Netizens Fight Censorship</em>. [online] Medium. Available at: <a href="https://medium.com/berkman-klein-center/the-chinese-language-as-a-weapon-how-chinas-netizens-fight-censorship-8389516ed1a6">https://medium.com/berkman-klein-center/the-chinese-language-as-a-weapon-how-chinas-netizens-fight-censorship-8389516ed1a6</a> [Accessed 13 Dec. 2018].</span></p>
+            
+                <p><span>Roberts, M. (2018). Censored: Distraction and Diversion Inside China's Great Firewall. New Jersey: Princeton University Press, p.8.</span></p>
+                <p><span>KING, G., PAN, J. and ROBERTS, M. (2013). How Censorship in China Allows Government Criticism but Silences Collective Expression. American Political Science Review, [online] 107(02), pp.326-343. Available at: </span><a href="https://gking.harvard.edu/files/censored.pdf"><span>https://gking.harvard.edu/files/censored.pdf</span></a><span>.</span></p>
+            
+                <p><span>Reporters Without Borders (2004).&nbsp;<em>North Korea: Journalism in the service of a totalitarian dictatorship</em>. [online] Paris: Reporters Without Borders, pp.2-11. Available at: <a href="https://rsf.org/sites/default/files/Report-North-Korea.pdf">https://rsf.org/sites/default/files/Report-North-Korea.pdf</a> [Accessed 13 Dec. 2018].</span></p>
+            
+                <p><span>Higham, N. (2018).&nbsp;<em>Web 'brings freedom and scrutiny'</em>. [online] BBC News. Available at: </span><a href="https://www.bbc.co.uk/news/magazine-26824802"><span>https://www.bbc.co.uk/news/magazine-26824802</span></a><span> [Accessed 22 Oct. 2018].</span></p>
+            
+                <p><span>RSF. (2018). North Korea : Last in the Index | Reporters without borders. [online] Available at: </span><a href="https://rsf.org/en/north-korea"><span>https://rsf.org/en/north-korea</span></a><span> [Accessed 22 Oct. 2018].</span></p>
+            
+                <p><span>EBERSTADT, N. and JACINTO, L. (2018).&nbsp;<em>The Country Where Big Brother Is Watching</em>. [online] ABC News. Available at: <a href="https://abcnews.go.com/International/story?id=79845&amp;page=1">https://abcnews.go.com/International/story?id=79845&amp;page=1</a> [Accessed 13 Dec. 2018].</span></p>
+            
+                <p><span>Zeller, T. and Pain, J. (2006).&nbsp;<em>The Internet Black Hole That Is North Korea</em>. [online] Nytimes.com. Available at: <a href="https://www.nytimes.com/2006/10/23/technology/23link.html">https://www.nytimes.com/2006/10/23/technology/23link.html</a> [Accessed 13 Dec. 2018].</span></p>
+            
+                <p><span>Wright, M. and Urban, D. (2017).&nbsp;<em>Brutal and inhumane laws North Koreans are forced to live under</em>. [online] The Telegraph. Available at: <a href="https://www.telegraph.co.uk/news/2017/09/19/brutal-inhumane-laws-north-koreans-forced-live/">https://www.telegraph.co.uk/news/2017/09/19/brutal-inhumane-laws-north-koreans-forced-live/</a> [Accessed 13 Dec. 2018].</span></p>
+            
+                <p><span>Amnesty International (2016).&nbsp;<em>Connection Denied</em>. Amnesty International March 2016. [online] London: Amnesty International, p.14. Available at: <a href="https://www.amnesty.org.uk/files/final_en_connection_denied_full_report1.pdf">https://www.amnesty.org.uk/files/final_en_connection_denied_full_report1.pdf</a>&nbsp; [Accessed 13 Dec. 2018].</span></p>
+            
+                <p><span>Hunter, H. (1999).&nbsp;<em>Kim Il-song's North Korea</em>. Westport, Conn.: Praeger, p.22. </span></p>
+            
+                <p>Moon, S. (2018). Radio Free Asia. [online] Rfa.org. Available at: <a href="https://www.rfa.org/english/news/korea/warned-09022016160227.html">https://www.rfa.org/english/news/korea/warned-09022016160227.html</a>&nbsp; [Accessed 22 Oct. 2018].</p>
+            
+                <p><span>Bennett, P., Naim, M. and Marenco, E. (2018).&nbsp;<em>21st-century censorship</em>. [online] Columbia Journalism Review. Available at: </span><a href="https://archives.cjr.org/cover_story/21st_century_censorship.php"><span>https://archives.cjr.org/cover_story/21st_century_censorship.php</span></a><span> [Accessed 22 Oct. 2018].</span></p>
+            
+                <p>Intermedia (2012).&nbsp;<em>A QUIET OPENING North Koreans in a Changing Media Environment</em>. [online] Washington DC: Intermedia, pp.8, 14. Available at: <a href="https://www.intermedia.org/wp-content/uploads/2013/05/A_Quiet_Opening_FINAL_InterMedia.pdf">https://www.intermedia.org/wp-content/uploads/2013/05/A_Quiet_Opening_FINAL_InterMedia.pdf</a> [Accessed 13 Dec. 2018].</p>
+                
+                <p>unknown, (1950), Stalin, (Nikolai Yezhov, censored) and Molotov at the shore of the Moscow-Volga canal. [ONLINE]. Available at: <a href="https://en.wikipedia.org/wiki/Censorship_of_images_in_the_Soviet_Union#/media/File:The_Commissar_Vanishes_2.jpg">https://en.wikipedia.org/wiki/Censorship_of_images_in_the_Soviet_Union#/media/File:The_Commissar_Vanishes_2.jpg</a> &nbsp;[Accessed 17 December 2018].</p>
+<p>unknown, (1937), Kliment Voroshilov, Vyacheslav Molotov, Stalin and Nikolai Yezhov at the shore of the Moscow-Volga canal. [ONLINE]. Available at: <a href="https://en.wikipedia.org/wiki/Censorship_of_images_in_the_Soviet_Union#/media/File:Voroshilov,_Molotov,_Stalin,_with_Nikolai_Yezhov.jpg">https://en.wikipedia.org/wiki/Censorship_of_images_in_the_Soviet_Union#/media/File:Voroshilov,_Molotov,_Stalin,_with_Nikolai_Yezhov.jpg</a> &nbsp;[Accessed 17 December 2018].</p>
+<p>unknown, (1958), untitled [ONLINE]. Available at: <a href="https://homesecurity.press/quotes/great-leap-forward-china-1958.html">https://homesecurity.press/quotes/great-leap-forward-china-1958.html</a> &nbsp;[Accessed 17 December 2018].</p>
+<p>unknown, (2007), untitled [ONLINE]. Available at: <a href="http://wpmu.mah.se/nmict151group2/2015/03/21/the-participatory-panopticon/">http://wpmu.mah.se/nmict151group2/2015/03/21/the-participatory-panopticon/</a> &nbsp;[Accessed 17 December 2018].</p>
+<p>Reuters pic, (2017), untitled [ONLINE]. Available at: <a href="https://www.malaymail.com/s/1537301/n.korean-soldier-defects-to-south-via-dmz">https://www.malaymail.com/s/1537301/n.korean-soldier-defects-to-south-via-dmz</a> North Korean soldiers watch the south side at the truce village of Panmunjom in the Demilitarised Zone (DMZ) dividing the two Koreas [Accessed 17 December 2018].</p>
+<p>Alex Kuehni, (2011), Pyongyang, North Korea - August 1, 2011: Students sitting in a study room inside the Grand People's Study House in Pyongyang. They read and study the writings and books of Kim Il Sung and Kim Jong-Il, which are also present in the room as huge portraits. [ONLINE]. Available at: <a href="https://www.istockphoto.com/gb/photo/grand-peoples-study-house-gm482853585-24361820">https://www.istockphoto.com/gb/photo/grand-peoples-study-house-gm482853585-24361820</a> &nbsp;[Accessed 17 December 2018].</p>
+    
         
     </div>
     
